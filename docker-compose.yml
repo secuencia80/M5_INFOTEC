@@ -11,6 +11,7 @@ services:
     networks:
       - laravel-network
 
+
   application:
     image: 'bitnamilegacy/laravel:latest'
     environment:
@@ -29,9 +30,11 @@ services:
     networks:
       - laravel-network
 
+
 volumes:
   mariadb_data:
     driver: local
+
 
 networks:
   laravel-network:
