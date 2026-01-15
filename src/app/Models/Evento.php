@@ -13,5 +13,3 @@ class Evento extends Model {
         'ubicacion'
     ];
 }
-
-

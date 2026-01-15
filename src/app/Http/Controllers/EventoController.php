@@ -156,4 +156,3 @@ class EventoController extends Controller
         return response()->json($respuesta);
     }
 }
-

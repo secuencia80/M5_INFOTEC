@@ -134,5 +134,3 @@ class PonenteController extends Controller
         return response()->json($respuesta);
     }
 }
-
-
